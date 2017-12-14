@@ -1,0 +1,65 @@
+body {
+  padding: 50px;
+  font-family: "Comic Sans MS", cursive, san-serif;
+  background-image: url('disney.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+}
+h2{
+	font-family: "Comic Sans MS", cursive, san-serif;
+	color: white;
+	font-size: 78px;
+	text-align: center;
+}
+a {
+  	color: white;
+	font-family: "Comic Sans MS", cursive, san-serif;
+	font-size: 24px;
+	text-decoration: none;
+	text-align: center;
+
+}
+
+
+#backer1{
+
+	background-color: lightblue;
+}
+
+#editLink{
+	position: relative;
+	bottom: -480px;
+	left:-30px;
+}
+
+#logoutLink{
+	position: relative;
+	bottom: -480px;
+	right: -1050px;
+}
+
+label{
+	color: white;
+	font-family: "Comic Sans MS", cursive, san-serif;
+	font-size: 24px;
+}
+
+.form-container{
+	background-color: lightsteelblue;
+	text-align: center;
+}
+
+#homeLink{
+	position: relative;
+	bottom: -380px;
+	right: -1200px;
+	color: white;
+}
+
+#disneysong{
+	opacity=1.0;
+}
+
+#signUpLink{
+	text-align: center;
+}

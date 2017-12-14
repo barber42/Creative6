@@ -1,0 +1,32 @@
+<!doctype html>
+<html ng-app="myApp"> 
+    
+<head>
+    <title>User Login and Sessions</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+</head>
+        
+<body>  
+<iframe width="3" height="2" id="disneysong"
+src="https://www.youtube.com/embed/mIrt5MkGpy0?autoplay=1&controls=0&loop=1">
+</iframe>
+    <div ng-controller="myController">
+	<div id="backer1">       
+	 <h2 id="welcomeText">Welcome to the order, 
+            <%= username %>
+        </h2>
+	</div>
+		
+	<a id="editLink" href="/user">Edit Membership</a>
+        <a id="logoutLink" href="/logout">Leave</a>/
+    </div>	
+    
+
+
+
+
+    <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+    <script src="/javascripts/my_app.js"></script>
+</body>
+      
+</html>

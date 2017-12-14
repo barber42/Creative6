@@ -1,0 +1,54 @@
+nohup: ignoring input
+before / Route
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-13T10:53:54.890Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a31cadcad11d5533111a03d',
+  username: 'Lucius Manglefox',
+  msg: 'User Updated.',
+  color: 'Metal Industry' }
+/ Route if user
+[0mGET / [36m304 [0m14.291 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.629 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.337 ms - -[0m
+[0mGET /stylesheets/triangle.jpg [36m304 [0m0.956 ms - -[0m
+[0mGET /user/profile [36m304 [0m12.856 ms - -[0m
+/logout Route
+[0mGET /logout [36m302 [0m5.269 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m2.668 ms - 844[0m
+[0mGET /stylesheets/sheet2.css [36m304 [0m1.637 ms - -[0m
+[0mGET /stylesheets/disney.jpg [36m304 [0m3.426 ms - -[0m
+login
+{ _id: 5a31ccb13ec952c7345023b1,
+  email: 'hgfhgfk@i.com',
+  hashed_password: 'pefAAkQ3Q8WDZ1jH0c2N3v2fzyBh2qDvqsaD+5mWYFc=',
+  username: 'rd',
+  __v: 0 }
+[0mPOST /login [36m302 [0m31.917 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-13T11:02:17.008Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a31ccb13ec952c7345023b1',
+  username: 'rd',
+  msg: 'Authenticated as rd' }
+/ Route if user
+[0mGET / [36m304 [0m2.217 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.106 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.556 ms - -[0m
+[0mGET /stylesheets/triangle.jpg [36m304 [0m1.207 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.541 ms - -[0m
+/logout Route
+[0mGET /logout [36m302 [0m1.352 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m2.468 ms - 844[0m
+[0mGET /stylesheets/sheet2.css [36m304 [0m2.233 ms - -[0m
+[0mGET /stylesheets/disney.jpg [36m304 [0m0.881 ms - -[0m

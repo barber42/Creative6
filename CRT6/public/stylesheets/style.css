@@ -1,0 +1,57 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('triangle.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+}
+h2{
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	font-size: 78px;
+	text-align: center;
+}
+a {
+  	color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	text-decoration: none;
+	text-align: center;
+
+}
+
+
+#backer1{
+
+	background-color: black;
+}
+
+#editLink{
+	position: relative;
+	bottom: -380px;
+	left:-30px;
+}
+
+#logoutLink{
+	position: relative;
+	bottom: -380px;
+	right: -1050px;
+}
+
+label{
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+}
+
+.form-container{
+	background-color: black;
+	text-align: center;
+}
+
+#homeLink{
+	position: relative;
+	bottom: -380px;
+	right: -1200px;
+	color: white;
+}
